@@ -1,1 +1,19 @@
+
+/* Monrope font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Tailwind css */
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme{
+    --color-primary: #5044E5;
+
+}
+
+*{
+    font-family: "Manrope", sans-serif;
+    font-weight:  500;
+}
